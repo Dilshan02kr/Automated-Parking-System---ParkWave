@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248,248,248);
+    overflow-y: hidden;
+}
+
+.container{
+    width: 100%;
+}
+.form-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.form-img{
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.form-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+.form-from{
+    width: 50%;
+}
+.form-box{
+    width: 700px;
+    height: 100vh; 
+    background-color:#fff;
+    padding-top: 50px;
+}
+.form-head{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-topic{
+    text-align: center;
+}
+.form-topic p{
+    color: #27292a;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.form-content{
+    width: 100%;
+}
+.form-input{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.input-section p{
+    width: 20%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-section input{
+    width: 80%;
+    height: 35px;
+    background-color: #E6E6E6;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.two-input{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+}
+.s-btn{
+    margin-top: 50px;
+}
+.s-btn input{
+    width: 80%;
+    margin-left: 20%;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #27292a;
+    font-weight: 600;
+    background-color: #FDC500;
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+.s-btn input:hover{
+    background-color: #F9BE00;
+}
+.s-btn input:active{
+    transform: scale(0.95);
+}
+.login-section{
+    width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.login-section p{
+    font-size: 14px;
+}
+span a{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+span a:hover{
+    color: #DC3545;
+}
+
+
+
